@@ -1,0 +1,68 @@
+
+div.text_box { 
+width: 270px; 
+height: 100px; 
+background-color: #FFFFFF;
+position: relative;
+    left: 7px;
+    top: 5px;
+}
+
+@font-face {
+ font-family:komika;
+ src: url("portfolio 1/KOMIKAX_.ttf");
+} 
+
+h2.komika {
+	font-family: 'lobster';
+	font-size: 40px;
+	font-style: italic;
+	color: #0000CC;
+	position: relative;
+	top: 17px;
+	left: 15px;
+}
+
+img.bigbear {
+	position: relative;
+	top: -100px;
+	left: 307px;
+}
+
+div.imgWrap {
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+p.imgDescription {
+  position: relative;
+  width: 500;
+  height: 700;
+  top: -151px;
+  left: 317px;
+  background: #909090;
+  color: #FFFFFF;
+
+
+  visibility: hidden;
+  opacity: 0;
+  }
+
+
+div.imgWrap:hover p.imgDescription {
+  visibility: visible; 
+  opacity: 1.0;
+}
+
+p.imgDescription:after {
+  background: url(https://mail.google.com/mail/u/0/?ui=2&ik=5fdab7f418&view=fimg&th=14820613dc0b982e&attid=0.1&disp=inline&realattid=1477750298770407424-local0&safe=1&attbid=ANGjdJ-G_zNf3xS9zT1VqAggFCO5JiZBYs3rXc_buEwJaAYt4x4nHLjPtvNdLQQpl96y7Zl6-LEhqpwye9AEvlypNWwiiEfqpv83tQWJtuigA4SVOJ-pYpPhSfjT_qw&ats=1409292539356&rm=14820613dc0b982e&zw&sz=w1342-h547);
+  opacity: 0.25;
+  width: 257px;
+  height: 200px;
+  top: -100;
+  left: 307;
+  position: absolute;
+  z-index: -1;
+  content: "";
+}
