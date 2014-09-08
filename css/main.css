@@ -1,5 +1,5 @@
 body {
-  background-color: blue;
+  background-color: gray;
 }
 div.text_box { 
 width: 270px; 
@@ -19,6 +19,7 @@ h2.komika {
 	font-family: 'lobster';
 	font-size: 40px;
 	font-style: italic;
+	color: #0000CC;
 	position: relative;
 	top: 17px;
 	left: 15px;
