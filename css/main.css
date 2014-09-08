@@ -1,28 +1,9 @@
-body {
-  background-color: gray;
-}
-div.text_box { 
-width: 270px; 
-height: 100px; 
-background-color: #FFFFFF;
-position: relative;
-    left: 7px;
-    top: 5px;
-}
-
-@font-face {
- font-family:komika;
- src: url("portfolio 1/KOMIKAX_.ttf");
-} 
-
-h2.komika {
-	font-family: 'lobster';
-	font-size: 40px;
-	font-style: italic;
-	color: #0000CC;
-	position: relative;
-	top: 17px;
-	left: 15px;
+#intro{
+    background-color: blue;
+    color: white;
+    height: 600px;
+    margin: 0;
+    padding: 160px 0 0 0;
 }
 
 .jm-item {
@@ -114,35 +95,27 @@ h2.komika {
   top: 20%; 
 }
 
-img.sixflags {
-  position: relative;
-  top: -228px;
-  left: 885px;
+#second {
+    background: url("https://mail.google.com/mail/u/0/?ui=2&ik=5fdab7f418&view=fimg&th=14851c05987b45f7&attid=0.1&disp=inline&realattid=1478618860410109952-local0&safe=1&attbid=ANGjdJ8MOjbeNvIpxF5q6Na4eHDpYvnu811ymk03dbgpDkdT7PtRzCWGizn0ePWn14dQJasGLRow8I25K5IOi0ooF7bext5E3ZGNieClw0H6Bxa7Lb0xHVvkpWNLezI&ats=1410145757108&rm=14851c05987b45f7&zw&sz=w1342-h504");
+    background-repeat: no-repeat;
+    background-size: 1400px 700px;
+    height: 700px;
+    margin: 0;
+    padding: 160px 0 0 0;
 }
 
-div.imgWrap2 {
-  position: relative;
-  height: 200px;
-  width: 257px;
+div.text_box { 
+width: 530px; 
+height: 320px; 
+background-color: #383838;
+text-align: center;
+position: relative;
+    left: 400px;
 }
 
-p.imgDescription2 {
-  position: relative;
-  width: 500;
-  height: 700;
-  top: -248px;
-  left: 885px;
-  background: #909090;
-  color: #FFFFFF;
-  font-size: 28;
-
-  visibility: hidden;
-  opacity: 0;
-  }
-
-
-div.imgWrap2:hover p.imgDescription2 {
-  visibility: visible; 
-  opacity: 1.0;
+p.description {
+  font-size: 20px;
+  font-style: italic;
+color: #FFFFFF;
 }
 
