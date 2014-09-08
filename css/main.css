@@ -1,4 +1,6 @@
-
+body {
+  background-color: gray;
+}
 div.text_box { 
 width: 270px; 
 height: 100px; 
@@ -23,46 +25,124 @@ h2.komika {
 	left: 15px;
 }
 
-img.bigbear {
-	position: relative;
-	top: -100px;
-	left: 307px;
+.jm-item {
+    padding: 10px;
+    display: inline-block;
+    text-align: left;
+}
+.jm-item-wrapper {
+  position: relative;
+  padding: 7px;
+  background: #E8D7B6;
 }
 
-div.imgWrap {
+.jm-item-image {
+  position: relative;
+    overflow: hidden;
+}
+.jm-item-image img {
+  display: block;
+}
+
+.jm-item-title {
+    position: absolute;
+    left: -10px;
+    bottom: 17px;
+    background: #101010;
+    line-height: 1.5em;
+    font-weight: normal;
+    padding: 7px 9px 6px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.4em;
+}
+
+.jm-item-overlay {
+  background: #000;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -webkit-transition: opacity 0.5s ease-in 0s;
+  -moz-transition: opacity 0.5s ease-in 0s;
+  -o-transition: opacity 0.5s ease-in 0s;
+  transition: opacity 0.5s ease-in 0s;
+}
+.jm-item-wrapper:hover .jm-item-overlay {
+  opacity: 0.3;
+}
+
+.jm-item-button {
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  margin-left: -25px;
+}
+.jm-item-button a {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background: #FF6B0E;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    line-height: 50px;
+    -webkit-transition: all 0.2s ease-in 0s;
+    -moz-transition: all 0.2s ease-in 0s;
+    -o-transition: all 0.2s ease-in 0s;
+    transition: all 0.2s ease-in 0s;
+    text-decoration: none !important;
+    display: block;
+}
+.jm-item-button a:hover {
+  background: #3b3b3b;  
+}
+
+.first .jm-item-button {
+  -webkit-transition: all 0.5s ease-in 0.5s;
+  -moz-transition: all 0.5s ease-in 0.5s;
+  -o-transition: all 0.5s ease-in 0.5s;
+  transition: all 0.5s ease-in 0.5s;
+  top: -50px; 
+}
+.first .jm-item-wrapper:hover .jm-item-button {
+  top: 20%; 
+}
+
+img.sixflags {
+  position: relative;
+  top: -228px;
+  left: 885px;
+}
+
+div.imgWrap2 {
   position: relative;
   height: 200px;
   width: 257px;
 }
 
-p.imgDescription {
+p.imgDescription2 {
   position: relative;
   width: 500;
   height: 700;
-  top: -151px;
-  left: 317px;
+  top: -248px;
+  left: 885px;
   background: #909090;
   color: #FFFFFF;
-
+  font-size: 28;
 
   visibility: hidden;
   opacity: 0;
   }
 
 
-div.imgWrap:hover p.imgDescription {
+div.imgWrap2:hover p.imgDescription2 {
   visibility: visible; 
   opacity: 1.0;
 }
 
-p.imgDescription:after {
-  background: url(https://mail.google.com/mail/u/0/?ui=2&ik=5fdab7f418&view=fimg&th=14820613dc0b982e&attid=0.1&disp=inline&realattid=1477750298770407424-local0&safe=1&attbid=ANGjdJ-G_zNf3xS9zT1VqAggFCO5JiZBYs3rXc_buEwJaAYt4x4nHLjPtvNdLQQpl96y7Zl6-LEhqpwye9AEvlypNWwiiEfqpv83tQWJtuigA4SVOJ-pYpPhSfjT_qw&ats=1409292539356&rm=14820613dc0b982e&zw&sz=w1342-h547);
-  opacity: 0.25;
-  width: 257px;
-  height: 200px;
-  top: -100;
-  left: 307;
-  position: absolute;
-  z-index: -1;
-  content: "";
-}
