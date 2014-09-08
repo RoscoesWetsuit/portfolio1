@@ -1,7 +1,7 @@
 #intro{
     background-color: blue;
     color: white;
-    height: 600px;
+    height: 700px;
     margin: 0;
     padding: 160px 0 0 0;
 }
@@ -119,3 +119,11 @@ p.description {
 color: #FFFFFF;
 }
 
+#third{
+    background: url("http://theorlandoscene.com/wp-content/uploads/2013/12/record-player.jpg");
+    background-repeat: no-repeat;
+    color: white;
+    height: 700px;
+    margin: 0;
+    padding: 160px 0 0 0;
+}
