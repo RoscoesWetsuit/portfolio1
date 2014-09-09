@@ -1,7 +1,7 @@
 #intro{
     background-color: blue;
     color: white;
-    height: 700px;
+    height: 600px;
     margin: 0;
     padding: 160px 0 0 0;
 }
@@ -98,15 +98,15 @@
 #second {
     background: url("https://mail.google.com/mail/u/0/?ui=2&ik=5fdab7f418&view=fimg&th=14851c05987b45f7&attid=0.1&disp=inline&realattid=1478618860410109952-local0&safe=1&attbid=ANGjdJ8MOjbeNvIpxF5q6Na4eHDpYvnu811ymk03dbgpDkdT7PtRzCWGizn0ePWn14dQJasGLRow8I25K5IOi0ooF7bext5E3ZGNieClw0H6Bxa7Lb0xHVvkpWNLezI&ats=1410145757108&rm=14851c05987b45f7&zw&sz=w1342-h504");
     background-repeat: no-repeat;
-    background-size: 1400px 700px;
+    background-size: 1700px 700px;
     height: 700px;
     margin: 0;
     padding: 160px 0 0 0;
 }
 
 div.text_box { 
-width: 530px; 
-height: 320px; 
+width: 540px; 
+height: 330px; 
 background-color: #383838;
 text-align: center;
 position: relative;
@@ -123,7 +123,7 @@ color: #FFFFFF;
     background: url("http://theorlandoscene.com/wp-content/uploads/2013/12/record-player.jpg");
     background-repeat: no-repeat;
     color: white;
-    height: 700px;
+    height: 900px;
     margin: 0;
     padding: 160px 0 0 0;
 }
